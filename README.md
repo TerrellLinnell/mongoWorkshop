@@ -317,7 +317,7 @@ __Benefits__
 
 
 
-* //------------------------------------------
+----
 ###my notes:
 * type `mongo` into terminal to open mongo repl
 * type `show dbs`to show databases

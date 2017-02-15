@@ -317,11 +317,11 @@ __Benefits__
 
 
 
-//------------------------------------------
-my notes:
-type `mongo` into terminal to open mongo repl
-type `show dbs`to show databases
-type `use (database)` if database not existent it will create it
-`db.(collection).insert('string'`(such as name)`: "string value")` --//will insert this to the database as a collection
-`db.(collection).find` --// will find all objects in that collection
-`show collections` --//show all current collectoins within the databse defined on line 324
+* //------------------------------------------
+###my notes:
+* type `mongo` into terminal to open mongo repl
+* type `show dbs`to show databases
+* type `use (database)` if database not existent it will create it
+* `db.(collection).insert('string'`(such as name)`: "string value")` --//will insert this to the database as a collection
+* `db.(collection).find` --// will find all objects in that collection
+* `show collections` --//show all current collectoins within the databse defined on line 324

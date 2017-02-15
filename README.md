@@ -10,17 +10,17 @@
 
 __Relational DBs__
 
-Historically databases have been mostly relational or SQL databases.
+Historically databases have been mostly relational or SQL (structured query language) databases.
 
 This means they store data in the format of tables and records.
 
-A table is how you desribe a piece of data, for example:
+A table is how you describe a piece of data, for example:
 
-| fName        | lName          | id  |
-| ------------- |:-------------:| -----:|
-| "Doug"      | "Walter" | 12e120 |
-| "Eric"      | "Berry"      |   34234 |
-| "Sandra" | "Neat"      |    12341 |
+| fName        | lName          | id     |
+| -------------|:-------------: | ------:|
+| "Doug"       |"Walter"        | 12e120 |
+| "Eric"       |"Berry"         | 34234  |
+| "Sandra"     |"Neat"          | 12341  |
 
 
 You can think of relational databases just like excel sheets. A table or excel page describes what a piece of data will contain.
@@ -55,6 +55,7 @@ var customer = {
 
  A bunch of documents together is called a `collection` , which is roughly the equivalent to a table.
 
+ These are really flexible, document driven databases, instead of table driven like relational databases
  ----
 
  #### MongoDB
@@ -144,8 +145,8 @@ The drives actually map BSON to JSON when you recall the data.
 
 BSON is
 Light
-Traversable (support the variety of operations neccessary to writing, reading, etc...)
-Effiecient
+Traversable (support the variety of operations necessary to writing, reading, etc...)
+Efficient
 
 Also extends JSON value types: (dates, images, etc)
 
@@ -312,3 +313,15 @@ __Benefits__
 * Consistent database with schemas
 
 * Fake relationships with population
+
+
+
+
+//------------------------------------------
+my notes:
+type `mongo` into terminal to open mongo repl
+type `show dbs`to show databases
+type `use (database)` if database not existent it will create it
+`db.(collection).insert('string'`(such as name)`: "string value")` --//will insert this to the database as a collection
+`db.(collection).find` --// will find all objects in that collection
+`show collections` --//show all current collectoins within the databse defined on line 324
